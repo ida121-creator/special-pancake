@@ -1,0 +1,87 @@
+body,
+p,
+li,
+dd,
+dt,
+span,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+textarea {
+  font-family: "Comic Sans MS", "Trebuchet MS", cursive !important;
+  color: #eb787a !important;
+  letter-spacing: 0.3px;
+  line-height: 1.6;
+}
+
+body {
+  background-image: url("https://i.postimg.cc/T27t0667/IMG-4552.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#header {
+  background-image: url("https://i.postimg.cc/CMPc7gg2/IMG-4553.jpg");
+  background-size: cover;
+  border-bottom: none;
+}
+
+#header .navigation {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  padding: 5px;
+}
+
+button,
+.button,
+a.tag,
+.filters dt,
+.filters dd {
+  background: #2b2b2b;
+  color: #eb787a !important;
+  border-radius: 20px;
+  border: none;
+  padding: 4px 10px;
+}
+
+.blurb {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 16px;
+  padding: 10px;
+  color: #eb787a !important;
+}
+
+.filters {
+  background-image: url("https://i.postimg.cc/RCsgdBBp/IMG-4554.jpg");
+  background-size: cover;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+hr {
+  border: none;
+  height: 300px;
+  background-image: url("https://i.postimg.cc/ZY7wHSSg/Untitled28-20260526010840.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a {
+  color: #eb787a !important;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+::selection {
+  background: #eb787a;
+  color: white;
+}
